@@ -127,6 +127,17 @@ const projects = [
         github: "https://github.com/Osamariyad2003/vollyball_stats",
         demo: "#"
     },
+
+    {
+        id: 14,
+        title: "Awaatli Solution",
+        description:"A job search and career research app that finds jobs via web search, ranks them with embeddings or resume matching, summarizes and analyzes them with NLP models, and optionally generates synthesis with Hugging Face Router or Ollama.",
+        image: "assets\images\Awaatli.png",
+        category: "ai",
+        tags: ["Python", "Hugging Face", "NLP", "Job Search", "Career Research"],
+        github: "https://github.com/Osamariyad2003/Awaatli_Solution",
+        demo: "https://osamariyad2003-awaatli-solution-srcuiapp-nqfrz7.streamlit.app/"
+    },
  
     {
         id: 14,
