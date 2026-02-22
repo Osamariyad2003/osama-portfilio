@@ -575,4 +575,25 @@ footer {
     .skill-category-card {
         border-radius: 16px;
     }
+
+    .skill-category-card {
+        padding: 1.25rem;
+    }
+}
+
+/* Prevent overflow on small screens */
+@media (max-width: 639px) {
+    .skill-category-card {
+        padding: 1rem;
+    }
+
+    .project-card img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Ensure flex/grid children can shrink */
+.main-content section {
+    min-width: 0;
 }

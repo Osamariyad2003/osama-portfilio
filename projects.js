@@ -79,7 +79,7 @@ const projects = [
     // Other Projects (Placeholders/Previous)
     {
         id: 9,
-        title: "ARD Database System",
+        title: "ARD ",
         description: "Academic research database system with ERD design, optimized queries, and reports for space and satellite data.",
         image: "assets/images/ard.png",
         category: "Flutter",
