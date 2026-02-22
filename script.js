@@ -35,31 +35,9 @@ navTabs.forEach(tab => {
         const targetContent = document.getElementById(targetId);
         if (targetContent) {
             targetContent.classList.remove('hidden');
-            // Small delay to allow display:block to apply before opacity transition
             setTimeout(() => {
                 targetContent.classList.add('active');
             }, 10);
-        }
-
-        // Update Logo Text
-        const logoText = document.getElementById('logo-text');
-        if (logoText) {
-            switch (targetId) {
-                case 'about':
-                    logoText.textContent = '~/';
-                    break;
-                case 'portfolio':
-                    logoText.textContent = '~/projects';
-                    break;
-                case 'stack':
-                    logoText.textContent = '~/stack';
-                    break;
-                case 'contact':
-                    logoText.textContent = '~/contact';
-                    break;
-                default:
-                    logoText.textContent = '~/';
-            }
         }
     });
 });
